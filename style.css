@@ -1,11 +1,12 @@
+html {
+  font-size: 1.2rem;
+}
+
 body {
 	font-family: 'M PLUS Rounded 1c', sans-serif;
 	font-weight: 900;
-}
-
-footer {
-	background-color: #413C60;
-	color: #F6E8F2;
+	background-color: #FFECBC;
+	color: #B22222;
 }
 
 /*profile picture*/
@@ -16,8 +17,9 @@ footer {
 
 /*divs showing projects screenshots*/
 .projects {
-	height: 50vh;
+	height: 40vh;
 	padding: 0;
+	margin: 2%;
 }
 
 .layer {
@@ -25,7 +27,7 @@ footer {
 	width: 100%;
 	height: 100%;
 	z-index: 1;
-	background-color: #9E5E7D;
+	background-color: #FFECBC;
 	opacity: 0.9;
 	display: flex;
 	align-items: center;
@@ -60,16 +62,6 @@ footer {
 	height: 5vh;
 }
 
-#profile {
-	background-color: #413C60;
-	color: #F6E8F2;
-}
-
-#portfolio {
-	background-color: #9E5E7D;
-	color: #F6E8F2;
-}
-
 #qvoca {
 	background: url(images/qvoca.png); 
 	background-size: cover;
@@ -92,4 +84,45 @@ footer {
 	background: url(images/piggy.png);
 	background-size: cover;
 	background-position: center;
+}
+
+
+@media only screen and (max-width: 575.98px) {
+	html {
+		font-size: 0.4rem;
+	}
+	
+	.projects {
+		height: 30vh;
+	}
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767.98px) { 
+	html {
+		font-size: 0.6rem;
+	}
+
+	.projects {
+		height: 30vh;
+	}
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991.98px) { 
+	html {
+		font-size: 0.8rem;
+	}
+
+	.projects {
+		height: 40vh;
+	}
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199.98px) { 
+	html {
+		font-size: 1.0rem;
+	}
+
+	.projects {
+		height: 40vh;
+	}
 }
