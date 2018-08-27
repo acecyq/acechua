@@ -95,6 +95,10 @@ body {
 	.projects {
 		height: 30vh;
 	}
+
+	.links {
+		height: 1.5vh;
+	}
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767.98px) { 
@@ -104,6 +108,10 @@ body {
 
 	.projects {
 		height: 30vh;
+	}
+
+	.links {
+		height: 1.5vh;
 	}
 }
 
@@ -115,6 +123,10 @@ body {
 	.projects {
 		height: 40vh;
 	}
+
+	.links {
+		height: 2vh;
+	}
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199.98px) { 
@@ -124,5 +136,9 @@ body {
 
 	.projects {
 		height: 40vh;
+	}
+
+	.links {
+		height: 2vh;
 	}
 }
